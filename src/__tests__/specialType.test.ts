@@ -1,6 +1,6 @@
 import { createClass, SpecialType, GenericClass } from "../SpecialType";
 
-describe("createClass Function", () => {
+describe("create class by reflection", () => {
 
   it("should create an instance of GenericClass by reflection", () => {
 

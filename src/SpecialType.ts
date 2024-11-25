@@ -1,7 +1,5 @@
 import "reflect-metadata";
-
 export type Constructor<T = any> = new (...args: any[]) => T;
-
 export function createClass<T>(target: Constructor<T>): T {
 
     const paramTypes: Constructor[] = Reflect.getMetadata("design:paramtypes", target) || [];

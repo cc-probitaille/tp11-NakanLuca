@@ -26,6 +26,7 @@
     "typescript": "^3.6.4"
   },
   "dependencies": {
+    "dotenv": "^16.4.5",
     "reflect-metadata": "^0.2.2"
   }
 }
